@@ -51,7 +51,10 @@ function dialogDismissed(buttonIndex) {
         new Toast({content: "Take a break - Have a KitKat!", duration: 3000});
         createNotification();
     } 
-   	else if(buttonIndex==2) new Toast({content: 'Continue working!.', duration: 3000});
+   	else if(buttonIndex==2) {
+        new Toast({content: 'Continue working!.', duration: 3000});
+        createDialog();
+    }
 
 }
 
