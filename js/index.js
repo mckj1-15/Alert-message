@@ -31,6 +31,8 @@ function createDialog() {
 
 	//phonegap supports native dialog boxes.
 	//here's a simple example
+    
+    new Toast ( {content: 'What do you think of this dialog?', duration: 3000});
       
 	navigator.notification.confirm(
     	new Toast ( {content: 'What do you think of this dialog?', duration: 3000});  // message
