@@ -38,7 +38,7 @@ function createDialog() {
         'Are you hungry?', // message
         dialogDismissed(),         // callback
         'Dialog...Are you hungry?!',            // title
-        ['Yes!', 'No']                  // buttons
+        ['No!', 'Yes!']                  // buttons
     );
 
 }
