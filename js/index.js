@@ -53,6 +53,7 @@ function dialogDismissed(buttonIndex) {
     } 
    	else if(buttonIndex==2) {
         new Toast({content: 'Continue working!.', duration: 3000});
+        createNotification();
         createDialog();
     }
 
