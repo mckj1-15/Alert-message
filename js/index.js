@@ -35,10 +35,10 @@ function createDialog() {
     
       
 	navigator.notification.confirm(
-        new Toast ( {content: 'What do you think of this dialog?', duration: 3000});  // message
+        'Are you hungry?', // message
         dialogDismissed(),         // callback
-        'An example dialog!',            // title
-        ['Awesome!', 'Sucks']                  // buttons
+        'Dialog...Are you hungry?!',            // title
+        ['Yes!', 'No']                  // buttons
     );
 
 }
