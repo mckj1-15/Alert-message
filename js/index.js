@@ -36,7 +36,7 @@ function createDialog() {
       
 	navigator.notification.confirm(
         new Toast ( {content: 'What do you think of this dialog?', duration: 3000});  // message
-        dialogDismissed,         // callback
+        dialogDismissed(),         // callback
         'An example dialog!',            // title
         ['Awesome!', 'Sucks']                  // buttons
     );
